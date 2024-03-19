@@ -24,6 +24,10 @@ header,
     letter-spacing: 0.05rem;
 }
 
+body {
+    overflow: hidden;
+}
+
 /* .header-animation p,
 .header-animation h1 {
     background: linear-gradient(#fff, #fff);
