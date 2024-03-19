@@ -2,8 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-header,
-#about-image {
+header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

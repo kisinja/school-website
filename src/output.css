@@ -544,10 +544,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -560,6 +556,10 @@ video {
   position: sticky;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-\[10\%\] {
   left: 10%;
 }
@@ -568,8 +568,16 @@ video {
   left: 30%;
 }
 
+.left-\[45\%\] {
+  left: 45%;
+}
+
 .left-\[5\%\] {
   left: 5%;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .top-2 {
@@ -582,30 +590,6 @@ video {
 
 .top-\[50\%\] {
   top: 50%;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-\[50\%\] {
-  left: 50%;
-}
-
-.left-\[40\%\] {
-  left: 40%;
-}
-
-.left-\[45\%\] {
-  left: 45%;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.top-\[-10px\] {
-  top: -10px;
 }
 
 .z-10 {
@@ -668,10 +652,6 @@ video {
   height: 300px;
 }
 
-.h-\[40px\] {
-  height: 40px;
-}
-
 .h-\[500px\] {
   height: 500px;
 }
@@ -703,10 +683,6 @@ video {
 
 .w-\[350px\] {
   width: 350px;
-}
-
-.w-\[40px\] {
-  width: 40px;
 }
 
 .w-\[500px\] {
@@ -786,16 +762,16 @@ video {
   gap: 80px;
 }
 
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .rounded-\[50\%\] {
   border-radius: 50%;
 }
 
 .rounded-\[5px\] {
   border-radius: 5px;
-}
-
-.rounded-full {
-  border-radius: 9999px;
 }
 
 .border {
@@ -1012,10 +988,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .hover\:italic:hover {
