@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Kisinja Schools</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b052718160.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="pt-3 bg-[url('assets/header-image.jpg')] h-[500px] relative" id="home">
+        <nav class="px-[5%] w-full bg-transparent flex justify-between items-center relative">
+            <div class="relative flex items-center gap-2">
+                <a href="index.html" class="text-lg text-white font-bold logo">
+                    Kisinja Schools </a>
+                <div class="relative bg-[#1d9f94] w-[15px] h-[15px] rounded-[50%] z-20 mb-2">
+                    <div class="bg-black w-[15px] h-[15px] rounded-[50%] absolute top-2 left-[10%] z-10">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex justify-between w-[500px] items-center nav-2">
+                <ul class="flex items-center gap-5">
+                    <li>
+                        <a href="#home" class="text-white uppercase text-md font-semibold">Home</a>
+                    </li>
+                    <li>
+                        <a href="#course" class="text-white uppercase text-md font-semibold">course</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="text-white uppercase text-md font-semibold">about</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-white uppercase text-md font-semibold">contact</a>
+                    </li>
+                    <li>
+                        <a href="" class="text-white uppercase text-md font-semibold">shop</a>
+                    </li>
+                </ul>
+                <div class="flex gap-5 icons">
+                    <a href="">
+                        <i class="fa-solid fa-magnifying-glass text-white text-lg"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-shopping-cart text-white text-lg"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hidden bars">
+                <i class="fa-solid fa-bars text-lg text-white" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <div class="flex flex-col gap-2 absolute top-[40%] left-[5%]">
+            <p class="text-white text-md font-semibold">Change is the end result of all true learning.</p>
+            <h1 class="text-[45px] text-white font-bold">Like what you are learning <br> Get started today</h1>
+            <a href="#" class="cta w-fit py-2 px-8 bg-[#1d9f94] text-white uppercase font-bold text-sm">get started now
+                <i class="fa-solid fa-arrow-right inline ml-5 text-white font-bold"></i></a>
+        </div>
+    </header>
+
+    <main class="px-[5%] bg-gray-100">
+        <section>
+            <div class="flex justify-between pt-9 contt">
+                <div class="flex flex-col gap-[80px] bg-[#1d9f94] w-[200px] h-fit py-[30px] px-[40px] green">
+                    <div class="flex flex-col items-center gap-1">
+                        <i class="fa-solid fa-computer text-[40px] text-white"></i>
+                        <p class="text-white text-sm">Computer Lab</p>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                        <i class="fa-solid fa-guitar text-[40px] text-white"></i>
+                        <p class="text-white text-sm">Music Instrument</p>
+                    </div>
+                    <div class="flex flex-col items-center gap-1">
+                        <i class="fa-solid fa-paintbrush text-[40px] text-white"></i>
+                        <p class="text-white text-sm">Art & Culture</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 classes">
+                    <div class="w-[250px] bg-white class">
+                        <div class="border-l-4 w-full pl-[20px] border-l-[#1d9f94] bg-gray-100">
+                            <h3 class="font-bold uppercase">Classes</h3>
+                        </div>
+                        <div class="w-full h-[200px]">
+                            <img src="assets/header-image.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col gap-2 p-2 border border-gray-300">
+                            <h3 class="font-bold capitalize">Multimedia Classes</h3>
+                            <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+                                natus ipsa beatae laudantium dolorum excepturi eligendi tempore </p>
+                            <a href="" class="text-[#1d9f94] uppercase hover:underline hover:italic">read more <i
+                                    class="fa-solid fa-arrow-right inline text-[#1d9f94] ml-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="w-[250px] bg-white class">
+                        <div class="border-l-4 w-full pl-[20px] border-l-[#1d9f94] bg-gray-100">
+                            <h3 class="font-bold uppercase">library</h3>
+                        </div>
+                        <div class="w-full h-[200px]">
+                            <img src="assets/image-1.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col gap-2 p-2 border border-gray-300">
+                            <h3 class="font-bold capitalize">excellent library</h3>
+                            <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+                                natus ipsa beatae laudantium dolorum excepturi eligendi tempore </p>
+                            <a href="" class="text-[#1d9f94] uppercase hover:underline hover:italic">read more <i
+                                    class="fa-solid fa-arrow-right inline text-[#1d9f94] ml-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="w-[250px] bg-white class">
+                        <div class="border-l-4 w-full pl-[20px] border-l-[#1d9f94] bg-gray-100">
+                            <h3 class="font-bold uppercase">transport</h3>
+                        </div>
+                        <div class="w-full h-[200px]">
+                            <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col gap-2 p-2 border border-gray-300">
+                            <h3 class="font-bold capitalize">Transport Facilities</h3>
+                            <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+                                natus ipsa beatae laudantium dolorum excepturi eligendi tempore </p>
+                            <a href="" class="text-[#1d9f94] uppercase hover:underline hover:italic">read more <i
+                                    class="fa-solid fa-arrow-right inline text-[#1d9f94] ml-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-gray-100 pt-[80px]" id="course">
+            <div class="w-full flex flex-col gap-3">
+                <div class="flex justify-between items-center">
+                    <p class="text-gray-500 capitalize text-sm">join our latest course</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-7 h-7 bg-gray-100 border-2 border-gray-500 p-1">
+                            <i class="fa-solid fa-arrow-left text-gray-500"></i>
+                        </div>
+                        <div class="w-7 h-7 bg-gray-100 border-2 border-gray-500 p-1">
+                            <i class="fa-solid fa-arrow-right text-gray-500"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-b-4 border-[#1d9f94] pb-2 w-[50px] rounded-[5px] h1-c">
+                    <h1 class="text-lg font-bold capitalize h1">courses</h1>
+                </div>
+                <div class="courses flex items-center gap-3">
+                    <div class="w-[350px] course">
+                        <div class="w-full h-[200px]">
+                            <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col gap-2 p-2 border border-gray-300 bg-white">
+                            <p class="text-sm text-gray-500">Computer Science</p>
+                            <h3 class="font-bold capitalize">The complete iOS design</h3>
+                            <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+                                natus ipsa beatae laudantium dolorum excepturi eligendi tempore </p>
+                            <a href="" class="text-white bg-[#1d9f94] uppercase py-2 px-5 w-fit">apply
+                                now</a>
+                        </div>
+                    </div>
+                    <div class="w-[350px] course">
+                        <div class="w-full h-[200px]">
+                            <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col gap-2 p-2 border border-gray-300 bg-white">
+                            <p class="text-sm text-gray-500">Agricultural Science</p>
+                            <h3 class="font-bold capitalize">Become a SuperLearner V2</h3>
+                            <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+                                natus ipsa beatae laudantium dolorum excepturi eligendi tempore </p>
+                            <a href="" class="text-white bg-[#1d9f94] uppercase py-2 px-5 w-fit">apply
+                                now</a>
+                        </div>
+                    </div>
+                    <div class="w-[350px] course">
+                        <div class="w-full h-[200px]">
+                            <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <div class="flex flex-col gap-2 p-2 border border-gray-300 bg-white justify-center">
+                            <p class="text-sm text-gray-500">Political Science</p>
+                            <h3 class="font-bold capitalize">NLP Practioner Certification</h3>
+                            <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+                                natus ipsa beatae laudantium dolorum excepturi eligendi tempore </p>
+                            <a href="" class="text-white bg-[#1d9f94] uppercase py-2 px-5 w-fit">apply
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="px-[5%] bg-gray-100 pb-[30px]">
+            <div class="w-full flex gap-[200px] items-center pt-[80px] abouts">
+                <div class="w-[500px] h-[300px] bg-[url('assets/about-image.jpg')] relative about" id="about-image">
+                    <div class="absolute text-center top-[50%] left-[30%] about-content">
+                        <p class="text-white text-md">Making your achievement</p>
+                        <h1 class="font-bold text-lg text-white uppercase">take a tour</h1>
+                        <i class="w-[40px] h-[40px] bg-white p-2 fa-solid fa-play text-lg rounded-full"></i>
+                    </div>
+                </div>
+                <div class="w-[600px] flex flex-col gap-[20px] p-3 about">
+                    <div class="border-b pb-3 border-[#1d9f94]">
+                        <h1 class="font-bold text-lg uppercase">about kisinja schools</h1>
+                    </div>
+                    <div>
+                        <p class="text-gray-500 text-sm tracking-wider leading-7">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Voluptate, cupiditate nostrum. Consectetur velit, iste, veniam id quasi architecto rem
+                            reiciendis debitis repellat, incidunt culpa laboriosam quia amet ea aliquid dolor. Lorem
+                            ipsum, dolor sit amet consectetur adipisicing elit. Quod, quidem saepe eum vitae error, ipsa
+                            dolor, nemo vel velit esse inventore. Sequi necessitatibus quos deserunt magni et omnis
+                            culpa minima.</p>
+                    </div>
+                    <div>
+                        <a href="" class="py-2 px-5 w-fit text-white font-bold uppercase bg-[#1d9f94]">read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black px-[5%] pt-[60px] pb-[40px] w-full mt-[50px]">
+        <div class="footer-container flex justify-between items-start">
+            <div class="flex flex-col justify-between h-[220px]">
+                <div class="relative flex items-center gap-2">
+                    <a href="index.html" class="text-lg text-white font-bold logo">
+                        Kisinja Schools </a>
+                    <div class="relative bg-[#1d9f94] w-[15px] h-[15px] rounded-[50%] z-20 mb-2">
+                        <div class="bg-white w-[15px] h-[15px] rounded-[50%] absolute top-2 left-[10%] z-10">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-phone text-sm text-[#1d9f94]"></i>
+                        <p class="text-gray-500 text-sm tracking-wider leading-7">+254 803 123 4567</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-envelope text-sm text-[#1d9f94]"></i>
+                        <p class="text-gray-500 text-sm tracking-wider leading-7">hello@kisinjaschools.com</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-map-pin text-sm text-[#1d9f94]"></i>
+                        <p class="text-gray-500 text-sm tracking-wider leading-7">123 Mugo Kibiru Road, <br>Nairobi,
+                            Kenya
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-white text-lg">COMPANY</h1>
+                <br>
+                <ul class="flex flex-col gap-[15px]">
+                    <li class="text-gray-500 text-sm">Help Center</li>
+                    <li class="text-gray-500 text-sm">Customer Support</li>
+                    <li class="text-gray-500 text-sm">Language Perks</li>
+                    <li class="text-gray-500 text-sm">Privacy Policy</li>
+                    <li class="text-gray-500 text-sm">Become a Teacher</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-white text-lg">USEFUL LINKS</h1>
+                <br>
+                <ul class="flex flex-col gap-[15px]">
+                    <li class="text-gray-500 text-sm">Help Center</li>
+                    <li class="text-gray-500 text-sm">Customer Support</li>
+                    <li class="text-gray-500 text-sm">Language Perks</li>
+                    <li class="text-gray-500 text-sm">Privacy Policy</li>
+                    <li class="text-gray-500 text-sm">Become a Teacher</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-white text-lg">SUPPORT</h1>
+                <br>
+                <ul class="flex flex-col gap-[15px]">
+                    <li class="text-gray-500 text-sm">Help Center</li>
+                    <li class="text-gray-500 text-sm">Customer Support</li>
+                    <li class="text-gray-500 text-sm">Language Perks</li>
+                    <li class="text-gray-500 text-sm">Privacy Policy</li>
+                    <li class="text-gray-500 text-sm">Become a Teacher</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-white text-lg">COMMUNITY</h1>
+                <br>
+                <ul class="flex flex-col gap-[15px]">
+                    <li class="text-gray-500 text-sm">Help Center</li>
+                    <li class="text-gray-500 text-sm">Customer Support</li>
+                    <li class="text-gray-500 text-sm">Language Perks</li>
+                    <li class="text-gray-500 text-sm">Privacy Policy</li>
+                    <li class="text-gray-500 text-sm">Become a Teacher</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
