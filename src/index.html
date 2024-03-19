@@ -12,7 +12,7 @@
 
 <body>
     <header class="pt-3 bg-[url('assets/header-image.jpg')] h-[500px] relative" id="home">
-        <nav class="px-[5%] w-full bg-transparent flex justify-between items-center relative">
+        <nav class="px-[5%] w-full bg-transparent flex justify-between items-center sticky top-0 z-[10000000]">
             <div class="relative flex items-center gap-2">
                 <a href="index.html" class="text-lg text-white font-bold logo">
                     Kisinja Schools </a>
@@ -26,19 +26,19 @@
             <div class="flex justify-between w-[500px] items-center nav-2">
                 <ul class="flex items-center gap-5">
                     <li>
-                        <a href="#home" class="text-white uppercase text-md font-semibold">Home</a>
+                        <a href="#home" class="text-white uppercase text-md font-semibold menu-nav-links">Home</a>
                     </li>
                     <li>
-                        <a href="#course" class="text-white uppercase text-md font-semibold">course</a>
+                        <a href="#course" class="text-white uppercase text-md font-semibold menu-nav-links">course</a>
                     </li>
                     <li>
-                        <a href="#about" class="text-white uppercase text-md font-semibold">about</a>
+                        <a href="#about" class="text-white uppercase text-md font-semibold menu-nav-links">about</a>
                     </li>
                     <li>
-                        <a href="" class="text-white uppercase text-md font-semibold">contact</a>
+                        <a href="" class="text-white uppercase text-md font-semibold menu-nav-links">contact</a>
                     </li>
                     <li>
-                        <a href="" class="text-white uppercase text-md font-semibold">shop</a>
+                        <a href="" class="text-white uppercase text-md font-semibold menu-nav-links">shop</a>
                     </li>
                 </ul>
                 <div class="flex gap-5 icons">
@@ -54,7 +54,7 @@
                 <i class="fa-solid fa-bars text-lg text-white" onclick="showMenu()"></i>
             </div>
         </nav>
-        <div class="flex flex-col gap-2 absolute top-[40%] left-[5%]">
+        <div class="flex flex-col gap-2 absolute top-[40%] left-[5%] header-animation">
             <p class="text-white text-md font-semibold">Change is the end result of all true learning.</p>
             <h1 class="text-[45px] text-white font-bold">Like what you are learning <br> Get started today</h1>
             <a href="#" class="cta w-fit py-2 px-8 bg-[#1d9f94] text-white uppercase font-bold text-sm">get started now
@@ -147,7 +147,7 @@
                 <div class="courses flex items-center gap-3">
                     <div class="w-[350px] course">
                         <div class="w-full h-[200px]">
-                            <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover">
+                            <img src="assets/image-3.jpg" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="flex flex-col gap-2 p-2 border border-gray-300 bg-white">
                             <p class="text-sm text-gray-500">Computer Science</p>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="w-[350px] course">
                         <div class="w-full h-[200px]">
-                            <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover">
+                            <img src="assets/image-4.jpg" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="flex flex-col gap-2 p-2 border border-gray-300 bg-white">
                             <p class="text-sm text-gray-500">Agricultural Science</p>
@@ -173,7 +173,7 @@
                     </div>
                     <div class="w-[350px] course">
                         <div class="w-full h-[200px]">
-                            <img src="assets/image-2.jpg" alt="" class="w-full h-full object-cover">
+                            <img src="assets/image-5.jpg" alt="" class="w-full h-full object-cover">
                         </div>
                         <div class="flex flex-col gap-2 p-2 border border-gray-300 bg-white justify-center">
                             <p class="text-sm text-gray-500">Political Science</p>
@@ -217,7 +217,7 @@
         </section>
     </main>
 
-    <footer class="bg-black px-[5%] pt-[60px] pb-[40px] w-full mt-[50px]">
+    <footer class="bg-black px-[5%] pt-[60px] pb-[40px] w-full mt-[50px] relative">
         <div class="footer-container flex justify-between items-start">
             <div class="flex flex-col justify-between h-[220px]">
                 <div class="relative flex items-center gap-2">
@@ -291,8 +291,8 @@
                 </ul>
             </div>
         </div>
-        <div class="copyright">
-            
+        <div class="copyright absolute bottom-0 left-[45%]">
+            <small class="text-gray-500 font-semibold">&copy;2024 Kisinja Inc.</small>
         </div>
     </footer>
 
