@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+#about-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.course p,
+.class p,
+.class p {
+    line-height: 1.75rem;
+    letter-spacing: 0.05rem;
+}
+
+.course h1,
+.class h1,
+.class h1 {
+    line-height: 1.75rem;
+    letter-spacing: 0.05rem;
+}
+
+@media (max-width: 800px) {
+    header {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .header-content {
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-content a {
+        text-align: center;
+        margin: auto;
+    }
+
+    .header-content h1 {
+        font-size: 20px;
+    }
+
+    .bars {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-2 {
+        position: absolute;
+        background: white;
+        top: -300px;
+        width: 300px;
+        border-radius: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10000;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        transition: top .4s;
+    }
+
+    .nav-2 a {
+        line-height: 28px;
+        letter-spacing: 0.05rem;
+        color: gray;
+        font-size: 17px;
+    }
+
+    .nav-2 a:hover {
+        color: #1d9f94;
+    }
+
+    .show {
+        top: 0;
+    }
+
+    .nav-2 ul {
+        flex-direction: column;
+    }
+
+    .nav-2 ul li a {
+        color: black;
+        text-transform: capitalize;
+    }
+
+    .icons i {
+        color: black;
+    }
+
+    .green {
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contt {
+        flex-direction: column;
+    }
+
+    .classes,
+    .courses,
+    .abouts {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        gap: 40px;
+    }
+
+    .footer-container .logo {
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+
+    .class,
+    .course,
+    .about {
+        width: 100%;
+    }
+
+    .abouts {
+        gap: 0;
+    }
+
+    .h1-c {
+        text-align: center;
+    }
+}
