@@ -838,10 +838,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'assets\/about-image\.jpg\'\)\] {
-  background-image: url('assets/about-image.jpg');
-}
-
 .bg-\[url\(\'assets\/header-image\.jpg\'\)\] {
   background-image: url('assets/header-image.jpg');
 }
